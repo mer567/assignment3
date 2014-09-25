@@ -1,0 +1,20 @@
+Answers to Ipython answers:
+
+
+1) importing os and then using the command: ? os.path.abspath we can tell that the function is defined here: /usr/lib/python2.7/posixpath.py
+
+
+2) using the following command, we can tell that there are 233 files in the /etc folder:
+num = !ls -l /etc |wc -l
+
+
+3) to take the square root of num I imported numpy and also changed the type of num from a single value list to an int. (num2 = int(num[0])).
+the squared value in 54289.
+
+4)using the %timeit command several times for each of the operations we observe that the operation x*x is the fastest (~ 53 ns), after that is x**2 (~74 ns) and slowest is numpy.square(x) (~1.58 ms)
+
+
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%latex  %%perl  %%prun  %%pypy  %%python  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+
+
+
